@@ -5,7 +5,7 @@ first_frame = None
 status_list = [None,None]
 times = []
 df = pandas.DataFrame(columns=["Start","End"])
-#if you have multipule webcam 0 will be you defaul cam, 1 will be your external
+
 video = cv2.VideoCapture(0)
 
 video.read()
